@@ -1,0 +1,6 @@
+sealed-secrets:
+  secretName: "sealed-secrets-key"
+  podSecurityContext:
+    enabled: false
+  containerSecurityContext:
+    enabled: false
