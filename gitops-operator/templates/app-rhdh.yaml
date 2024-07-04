@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: "."
-    repoURL: 'https://github.com/edubois10/rhdh.git'
+    repoURL: 'https://github.com/edubois10/developer_hub.git'
     targetRevision: main
   syncPolicy:
     automated:
