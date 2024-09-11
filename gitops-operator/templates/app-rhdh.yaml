@@ -11,8 +11,8 @@ spec:
   source:
     path: "."
     repoURL: 'https://github.com/edubois10/developer_hub.git'
-    targetRevision: main
+    targetRevision: before-cleanup
   syncPolicy:
     automated:
       prune: true
-      selfHeal: true
+      selfHeal: false
