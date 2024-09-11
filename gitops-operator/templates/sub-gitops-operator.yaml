@@ -9,5 +9,5 @@ spec:
   name: openshift-gitops-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace
-  startingCSV: openshift-gitops-operator.v1.12.3
+  startingCSV: openshift-gitops-operator.v1.13.0
 
