@@ -1,15 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: rhdh
+  name: rhdh-operator
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: rhdh
+    namespace: rhdh-operator
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    path: "rhdh-instance"
+    path: "rhdh-operator"
     repoURL: 'https://github.com/edubois10/developer_hub.git'
     targetRevision: operator-deployment
   syncPolicy:
